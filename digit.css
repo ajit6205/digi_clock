@@ -1,0 +1,31 @@
+/* .container{
+    content: "luytdkcjv";
+    width: 50rem;
+    height: 50rem;
+    background: #f41b75;
+    border-radius: 10px;
+    position: absolute;
+    left: 100rem;
+    top: 100rem;
+    z-index: -10;
+    
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #282c34;
+    color: white;
+}
+
+.clock {
+    font-size: 10em;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
